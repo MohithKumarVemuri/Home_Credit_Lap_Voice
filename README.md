@@ -39,100 +39,9 @@ home-credit-lap-voice-agent/
 │   ├── 07_Income_Type.txt
 │   └── 08_Loan_Tenure.txt
 │
-├── test_audio/                 # Designated folder for Retell live .wav recordings
-│   └── README.md
-│
-├── index.html                  # Interactive Voice Agent simulator & test portal
-├── styles.css                  # Obsidian glassmorphic design system
-├── app.js                      # Frontend orchestrator, audio, TTS/STT, and UI bindings
-├── state_engine.js             # Core dialogue state machine & multi-slot parser
-├── scenarios_data.js           # Structured dataset of test scenarios
-├── server.js                   # Lightweight zero-dependency local Node.js server
-├── test_runner.js              # Automated CLI test runner (npm test)
-└── package.json                # Project scripts and configuration
+└── test_audio/                 # Designated folder for Retell live .wav recordings
+    └── README.md
 ```
-
----
-
-## 🚀 Quick Start: Running Locally
-
-The local server runs with **native Node.js** using zero third-party dependencies (`node_modules` not required).
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v16 or higher, tested on v20/v24)
-- A modern web browser (Google Chrome, Microsoft Edge, or Safari recommended for Web Speech API support)
-
-### Step 1: Navigate to the Project Directory
-Open PowerShell or your terminal:
-```bash
-cd "C:\Users\Mohith Kumar Vemuri\.gemini\antigravity-ide\scratch\home-credit-lap-voice-agent"
-```
-
-### Step 2: Start the Local Server
-Run the built-in HTTP server:
-```bash
-npm start
-```
-*(or run directly with: `node server.js`)*
-
-Output:
-```
-==================================================================
-🚀 Home Credit LAP Voice Agent — Local Simulator & Test Suite
-🌐 Server running at: http://localhost:3000
-==================================================================
-```
-
-### Step 3: Open in Browser
-Visit **[http://localhost:3000](http://localhost:3000)** in your browser.
-
-> [!TIP]
-> You can also open `index.html` directly in your browser using the file protocol (`file:///.../index.html`) without starting a server.
-
----
-
-## 🧪 Running Automated Scenario Tests
-
-You can run the complete 21-scenario regression test matrix from the terminal:
-
-```bash
-npm test
-```
-*(or `node test_runner.js`)*
-
-### Expected Output:
-```
-================================================================================
-🧪 Home Credit LAP Voice Agent — Automated Test Runner
-================================================================================
-
-[#01 ] Happy Path (Full Qualification)        | Expected: QUALIFIED_HANDOFF  | Actual: QUALIFIED_HANDOFF  | ✅ PASS
-[#02 ] Agricultural Land Disqualification     | Expected: DISQUALIFIED       | Actual: DISQUALIFIED       | ✅ PASS
-[#03 ] Cash Income Disqualification           | Expected: DISQUALIFIED       | Actual: DISQUALIFIED       | ✅ PASS
-[#04 ] No Original Documents                  | Expected: DISQUALIFIED       | Actual: DISQUALIFIED       | ✅ PASS
-[#05 ] Tenure Too Short (< 3 Years)           | Expected: DISQUALIFIED       | Actual: DISQUALIFIED       | ✅ PASS
-[#06 ] Tenure Too Long (> 15 Years)           | Expected: DISQUALIFIED       | Actual: DISQUALIFIED       | ✅ PASS
-[#07 ] Over Limit — Accepts ₹75L Cap          | Expected: QUALIFIED_HANDOFF  | Actual: QUALIFIED_HANDOFF  | ✅ PASS
-[#07b] Over Limit — Declines ₹75L Cap         | Expected: ENDED              | Actual: ENDED              | ✅ PASS
-[#08 ] Joint Ownership Accepted               | Expected: QUALIFIED_HANDOFF  | Actual: QUALIFIED_HANDOFF  | ✅ PASS
-[#09 ] Existing Running Loan (Transfer Trigger) | Expected: TRANSFER_FLOW      | Actual: TRANSFER_FLOW      | ✅ PASS
-[#10 ] EMI Reduction Request (Transfer Trigger) | Expected: TRANSFER_FLOW      | Actual: TRANSFER_FLOW      | ✅ PASS
-[#11 ] Out-of-Order Multi-Slot Utterance      | Expected: QUALIFIED_HANDOFF  | Actual: QUALIFIED_HANDOFF  | ✅ PASS
-[#12 ] Customer Busy / Meeting                | Expected: ENDED              | Actual: ENDED              | ✅ PASS
-[#13 ] Self-Correction on Tenure              | Expected: QUALIFIED_HANDOFF  | Actual: QUALIFIED_HANDOFF  | ✅ PASS
-[#14 ] Contradiction to Ineligible Overwrite  | Expected: DISQUALIFIED       | Actual: DISQUALIFIED       | ✅ PASS
-[#15 ] Compound 4-Fact Multi-Answer           | Expected: QUALIFIED_HANDOFF  | Actual: QUALIFIED_HANDOFF  | ✅ PASS
-[#16 ] Interest Rate Diversion Handling       | Expected: QUALIFIED_HANDOFF  | Actual: QUALIFIED_HANDOFF  | ✅ PASS
-[#17 ] Mid-Question Interruption Handling     | Expected: QUALIFIED_HANDOFF  | Actual: QUALIFIED_HANDOFF  | ✅ PASS
-[#18 ] Ambiguous Documents Clarified          | Expected: QUALIFIED_HANDOFF  | Actual: QUALIFIED_HANDOFF  | ✅ PASS
-[#19 ] Caller Identity Gate                   | Expected: QUALIFIED_HANDOFF  | Actual: QUALIFIED_HANDOFF  | ✅ PASS
-[#20 ] Hindi Call Flow (Strict Feminine Grammar) | Expected: QUALIFIED_HANDOFF  | Actual: QUALIFIED_HANDOFF  | ✅ PASS
-
-================================================================================
-📊 Test Results: 21/21 Scenarios Passed (100% Pass Rate)
-================================================================================
-
-🎉 All 21 scenarios passed successfully against system_prompt.md rules!
 ```
 
 ---
@@ -230,8 +139,8 @@ In Retell's web-call test panel, supply the following variables:
 
 ---
 
-## 🛠️ Technology Stack
-- **Architecture:** Retell AI Single Prompt Agent & Event-driven State Engine
-- **Frontend:** Vanilla HTML5, Vanilla CSS3 (Obsidian Glassmorphism design system), Vanilla JavaScript (ES6+)
-- **Audio APIs:** Web Speech API (`SpeechSynthesis` for Agent Voice, `SpeechRecognition` for Microphone input)
-- **Local Dev Server:** Built-in Node.js `http` server (Zero external dependencies)
+## 🛠️ Technology & Platform
+- **Voice Platform:** Retell AI (Single Prompt Agent Architecture)
+- **Voice Engine:** Indian English High-Fidelity Female Voice (Priya)
+- **Telephony & Audio:** WebRTC / Web Call Full-Duplex Audio
+- **Runtime Variables:** Retell Dynamic Variables (`company_name`, `customer_name`, `agent_name`, `agent_gender`, etc.)
