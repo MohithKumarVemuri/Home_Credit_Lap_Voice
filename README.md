@@ -1,8 +1,8 @@
-# Home Credit LAP Voice Agent — Retell AI Qualification & Testing Platform
+# Home Credit LAP Voice Agent — Retell AI Qualification Platform
 
 An autonomous, multi-turn AI voice agent platform built for **Home Credit India** to qualify existing customers for a pre-approved **Loan Against Property (LAP)** offer of up to **₹75,00,000 (75 Lakhs)**.
 
-This project implements the single source of truth business logic defined in `spec.md` and `system_prompt.md`. It includes a full local interactive simulation environment, Web Speech API voice synthesis & recognition, real-time 7-slot state machine tracking, and an automated 21-scenario regression test runner.
+This project implements the single source of truth business logic defined in `system_prompt.md` and `approach.md`, evaluated across live human phone calls conducted on **Retell AI**.
 
 ---
 
@@ -11,9 +11,7 @@ This project implements the single source of truth business logic defined in `sp
 - **Live Retell AI Agent (Interactive Orb):** [Test Call Priya Live on Retell AI](https://agent.retellai.com/orb/agent_b9740a70ac2775d29a08a0b8ff?token=13d66d58da761949ca2c2783ade28de4)
 - **Single Source of Truth Prompt (`system_prompt.md`):** Strict implementation of all 7 eligibility business rules, transfer flows, limit flows, disqualification gates, and handoff criteria across 11 Retell dynamic variables.
 - **8 Live Human Voice Test Calls:** Completed on Retell AI across core flows (Happy path, Busy callback, Wrong number, Existing loan transfer, Document verification, Over-limit cap, Cash income rejection, and Tenure bounds).
-- **Interactive Voice & Chat Call Simulator:** Realistic browser phone mockup featuring speech synthesis (TTS), microphone input (Web Speech Recognition), live waveform animations, and phone call timers.
-- **Real-Time 7-Slot State Inspector:** Live visualization of slot filling (`property_type`, `ownership`, `documents_available`, `loan_amount`, `occupation`, `income_mode`, `market_value`, `tenure`) and special routing flags (`Existing Loan`, `Limit Flow`, `Disqualified`).
-- **21 Scenario Automated Regression Suite:** 1-click browser test runner and zero-dependency CLI test runner verifying 100% test matrix coverage with pass/fail assertions.
+- **Sequential Multi-Slot Extraction:** Extracts out-of-order data, updates state, and never re-asks answered items; asks only the earliest unfulfilled checklist item.
 
 ---
 
@@ -25,7 +23,6 @@ home-credit-lap-voice-agent/
 ├── system_prompt.md            # Final single source of truth Retell system prompt
 ├── approach.md                 # Architecture, state machine algorithm & resilience doc
 ├── test_results.md             # Verification matrix with pass/fail evaluations
-├── spec.md                     # Complete project specification & business rules
 ├── test_scripts.md             # Natural dialogue scripts for testing
 ├── README.md                   # Project overview & execution guide (this file)
 │
@@ -41,7 +38,6 @@ home-credit-lap-voice-agent/
 │
 └── test_audio/                 # Designated folder for Retell live .wav recordings
     └── README.md
-```
 ```
 
 ---
