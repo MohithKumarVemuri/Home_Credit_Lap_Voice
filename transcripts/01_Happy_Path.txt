@@ -1,0 +1,40 @@
+[CALL START]
+Customer: Hello?
+Agent: Hello, am I speaking with Rahul Sharma?
+Customer: Yes. I'm wrong, sir.
+Agent: I’m Priya from Home Credit, calling about a special offer for valued customers. Is this a good time to talk for two minutes?
+Customer: Yeah. Go ahead.
+Agent: We’re calling because you may be eligible for a Loan Against Property of up to seventy-five lakh rupees. Is this for a fresh loan, or is there already a loan on the property?
+Customer: Fresh loan.
+Agent: What type of property is it: residential, commercial, or industrial?
+Customer: (unintelligible audio)
+Agent: Can you repeat the property type: residential, commercial, or industrial?
+Customer: Presidential.
+Agent: Do you mean a residential property, like a house or flat?
+Customer: House.
+Agent: Is the house owned only by you, or jointly with someone else?
+Customer: It's owned by me.
+Agent: Do you have the original property documents available for verification?
+Customer: Yeah. I do have.
+Agent: What loan amount do you need?
+Customer: Seventy. Let's
+Agent: Seventy lakh rupees, noted. Are you salaried or self-employed?
+Customer: Salary.
+Agent: And is your salary received in your bank account or in cash?
+Customer: Bank account.
+Agent: What’s the approximate current market value of the house?
+Customer: (unintelligible audio)
+Agent: Can you repeat the approximate current market value of the house?
+Customer: It's too close.
+Agent: I’m sorry, I didn’t catch the property value. Can you tell me the approximate amount in rupees?
+Customer: Crores.
+Agent: About how many crore rupees is the house worth?
+Customer: Two.
+Agent: Thank you. How many years would you like for repayment?
+Customer: ATS.
+Agent: I didn’t catch the repayment period. How many years would you prefer?
+Customer: Eight.
+Agent: Thank you so much, Rahul Sharma. Based on what you've shared, you're eligible to move forward. A senior loan expert will call you back shortly to share the exact interest rate and next steps. Have a great day!
+Customer: Thank you.
+Agent: You're welcome.
+[CALL END - REASON: QUALIFIED_HANDOFF]

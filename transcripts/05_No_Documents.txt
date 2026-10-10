@@ -1,0 +1,21 @@
+[CALL START]
+Customer: Hello.
+Agent: Hello, am I speaking with Rahul Sharma?
+Customer: Yeah.
+Agent: Is this a good time to talk for two minutes?
+Customer: Yeah.
+Agent: We're calling because you're eligible for a special Loan Against Property offer of up to seventy-five lakh rupees. Is this for a fresh loan, or is there already a loan running on the property?
+Customer: That's long.
+Agent: It can be for a tenure from three to fifteen years. Is it a fresh loan or an existing loan on the property?
+Customer: Fresh loan.
+Agent: What type of property is it: residential, commercial, or industrial?
+Customer: How much do
+Customer: Commercial.
+Agent: The offer is for up to seventy-five lakh rupees. What type of property is it: residential, commercial, or industrial?
+Customer: Commercial.
+Agent: Got it. Is the property solely owned by you, or jointly owned with family or partners?
+Customer: Jointly owned with family.
+Agent: Do you have the original property documents available for verification?
+Customer: No. I don't have. I don't have.
+Agent: Thank you for sharing that. Unfortunately, you don't meet the criteria for this specific offer at this time. I appreciate your time, and thank you for being a valued customer of Home Credit.
+[CALL END - REASON: DISQUALIFIED_NO_ORIGINALS]

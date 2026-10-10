@@ -1,0 +1,21 @@
+{
+  "name": "home-credit-lap-voice-agent",
+  "version": "1.0.0",
+  "description": "AI Voice Agent for Home Credit Loan Against Property (LAP) qualification built on Retell AI with 20-scenario testing suite",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test_runner.js"
+  },
+  "keywords": [
+    "retell-ai",
+    "voice-agent",
+    "loan-against-property",
+    "home-credit",
+    "dialogue-system",
+    "speech-testing"
+  ],
+  "author": "Antigravity AI",
+  "license": "MIT"
+}

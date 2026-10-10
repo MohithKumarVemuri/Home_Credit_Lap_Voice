@@ -1,0 +1,12 @@
+[CALL START]
+Customer: Hello?
+Agent: Hello, am I speaking with Rahul Sharma?
+Customer: Yes.
+Agent: Hi Rahul, I’m Priya from Home Credit. Is this a good time to talk for two minutes?
+Customer: Yeah.
+Agent: We're calling about a Loan Against Property offer of up to seventy-five lakh rupees. May I ask a few quick questions to see if it suits you?
+Customer: Okay.
+Agent: Just to confirm, is this for a fresh loan, or do you already have a loan running on the property?
+Customer: I do have a loan.
+Agent: Thank you for sharing that. Since there’s an existing loan, a loan transfer specialist will contact you shortly to help. Thank you for your time.
+[CALL END - REASON: TRANSFER_FLOW]

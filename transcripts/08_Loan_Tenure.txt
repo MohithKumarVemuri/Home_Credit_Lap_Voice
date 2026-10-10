@@ -1,0 +1,35 @@
+[CALL START]
+Customer: Hello?
+Agent: Hello, am I speaking with Rahul Sharma?
+Customer: Yes.
+Agent: Is this a good time to talk for two minutes?
+Customer: Yeah.
+Agent: We're calling because you're eligible for a special Loan Against Property offer of up to seventy-five lakh rupees. I'd like to ask a few quick questions to see if it suits you.
+Customer: Okay.
+Agent: Just to confirm, is this for a fresh loan, or do you already have a loan running on the property?
+Customer: That's slow.
+Customer: Press loan.
+Agent: Do you mean a fresh loan?
+Customer: Yeah.
+Agent: What type of property is it: residential, commercial, or industrial?
+Customer: Come.
+Customer: Residential.
+Agent: Is the property owned solely by you or jointly with someone else?
+Customer: It's owned by me.
+Agent: Do you have the original property documents available for verification?
+Customer: Yeah.
+Customer: I do have.
+Agent: How much loan amount do you need?
+Customer: Seventy five minutes.
+Agent: Could you repeat the loan amount you need?
+Customer: Seventy five blacks.
+Agent: Do you mean seventy-five lakh rupees?
+Customer: Yeah.
+Agent: What is your occupation, and is your income received in your bank account or in cash?
+Customer: I'm a salaried employee. I received the amount in bank account.
+Agent: What’s the approximate current market value of the property?
+Customer: It's five crores.
+Agent: What repayment tenure would you prefer, between three and fifteen years?
+Customer: Sixteen years.
+Agent: Thank you for sharing that. Unfortunately, you don't meet the criteria for this specific offer at this time. I appreciate your time, and thank you for being a valued customer of Home Credit.
+[CALL END - REASON: DISQUALIFIED_TENURE_LONG]

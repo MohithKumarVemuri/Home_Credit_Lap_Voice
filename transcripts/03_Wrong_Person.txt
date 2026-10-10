@@ -1,0 +1,8 @@
+[CALL START]
+Customer: Hello?
+Agent: Hello, am I speaking with Rahul Sharma?
+Customer: No.
+Agent: I'm sorry, I may have reached the wrong person. Is there a convenient time to call Rahul Sharma?
+Customer: No. This is the wrong number.
+Agent: I'm sorry for the inconvenience. Thank you, and have a good day.
+[CALL END - REASON: WRONG_NUMBER]

@@ -1,0 +1,30 @@
+[CALL START]
+Customer: (unintelligible audio)
+Agent: Hello, am I speaking with Rahul Sharma?
+Customer: Yes.
+Agent: Is this a good time to talk for two minutes?
+Customer: Yeah.
+Agent: We're calling because you're eligible for a special Loan Against Property offer of up to seventy-five lakh rupees. Is this for a fresh loan, or is there already a loan on the property?
+Customer: Press loan.
+Agent: Do you mean a fresh loan with no existing loan on the property?
+Customer: Fresh flow.
+Agent: Thank you. Is the property residential, commercial, or industrial?
+Customer: Industrial.
+Agent: Is the property owned solely by you, or jointly with family or partners?
+Customer: Owned by me.
+Agent: Do you have the original property documents available for verification?
+Customer: Yeah. I do have.
+Agent: What loan amount do you need?
+Customer: One scroll.
+Agent: Could you repeat the loan amount you need?
+Customer: One crore.
+Agent: This offer is available for up to seventy-five lakh rupees. Would you like to proceed with the maximum amount of seventy-five lakh?
+Customer: Oh, one floor is not possible?
+Agent: This offer is for up to seventy-five lakh rupees. Would you like to proceed with that amount?
+Customer: Okay.
+Agent: What loan amount would you like to proceed with, up to seventy-five lakh rupees?
+Customer: You're saying maximum amount is seventy five lakhs?
+Agent: Yes, this offer is available for up to seventy-five lakh rupees. Would you like to proceed with that maximum amount?
+Customer: No.
+Agent: Thank you for your time. Have a good day.
+[CALL END - REASON: LIMIT_FLOW_DECLINED]
