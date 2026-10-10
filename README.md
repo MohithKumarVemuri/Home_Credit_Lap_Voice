@@ -26,7 +26,7 @@ home-credit-lap-voice-agent/
 ├── test_scripts.md             # Natural dialogue scripts for testing
 ├── README.md                   # Project overview & execution guide (this file)
 │
-├── transcripts/                # 8 live call transcripts matching Retell human audio
+├── transcripts/                # 9 live call transcripts matching Retell human audio
 │   ├── 01_Happy_Path.txt
 │   ├── 02_Busy_Rescheduling.txt
 │   ├── 03_Wrong_Person.txt
@@ -34,7 +34,8 @@ home-credit-lap-voice-agent/
 │   ├── 05_No_Documents.txt
 │   ├── 06_Maximum_Amount.txt
 │   ├── 07_Income_Type.txt
-│   └── 08_Loan_Tenure.txt
+│   ├── 08_Loan_Tenure.txt
+│   └── 09_Hindi_Agricultural_Disqualification.txt
 │
 └── test_audio/                 # Designated folder for Retell live .wav recordings
     └── README.md

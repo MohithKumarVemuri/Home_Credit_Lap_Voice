@@ -14,6 +14,7 @@ This directory is designated for the 8 live human audio recordings conducted via
 | **06** | `06_Maximum_Amount.wav` *(or `Maximum_Amount.wav`)* | `transcripts/06_Maximum_Amount.txt` | Over-Limit Flow (₹1 Cr requested &rarr; ₹75L offered & declined) |
 | **07** | `07_Income_Type.wav` *(or `Income_Type.wav`)* | `transcripts/07_Income_Type.txt` | Cash Income Disqualification Gate |
 | **08** | `08_Loan_Tenure.wav` *(or `Loan_Tenure.wav`)* | `transcripts/08_Loan_Tenure.txt` | Tenure Exceeding Limit (16 years > 15 years disqualified) |
+| **09** | `09_Hindi_Agricultural.wav` *(or `Hindi_Agricultural.wav`)* | `transcripts/09_Hindi_Agricultural_Disqualification.txt` | Language Switch to Hindi + Noise Handling + Agricultural Land Disqualification |
 
 ---
 
